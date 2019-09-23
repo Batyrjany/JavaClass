@@ -1,0 +1,63 @@
+package day33;
+
+public class GraderApp {
+
+	public static void main(String[] args) {
+		
+/* grade your score by range and give grade of A B C F*/
+		
+		System.out.println(grade(90));
+		System.out.println(grade(80));
+		System.out.println(grade(70));
+		System.out.println(grade(60));
+		System.out.println(grade(95));
+		System.out.println(grade(75));
+		System.out.println(grade(100));
+		
+
+		System.out.println();
+		
+		    System.out.println(  gradeTheScore(99)  );
+		    System.out.println(  gradeTheScore(89)  );
+		    System.out.println(  gradeTheScore(79)  );
+		    System.out.println(  gradeTheScore(69)  );
+		    System.out.println(  gradeTheScore(10)  );
+		    System.out.println(  gradeTheScore(101)  );
+	}
+
+	
+	
+	
+	
+	public static char grade(int num) {
+		
+		
+		return num>90?'A':num>=80?'B':num>=70?'C':'D';
+	}
+	
+	
+	
+	
+	public static char gradeTheScore(int score) {
+	    
+	    if(score <= 100 && score >= 90) 
+	      return 'A' ;  
+	    if(score < 90 && score >= 80) 
+	      return 'B' ; 
+	    if (score < 80 && score >= 70) 
+	      return 'C' ; 
+	    
+	    
+	    return 'F'; 
+	    
+	    //    if (score <= 100 && score >= 90) {
+//	      return 'A' ; 
+//	    }else if (score < 90 && score >= 80) {
+//	      return 'B' ; 
+//	    }else if (score < 80 && score >= 70) {
+//	      return 'C' ;       
+//	    }else {
+//	      return 'F' ; 
+//	    }
+	        
+}}
