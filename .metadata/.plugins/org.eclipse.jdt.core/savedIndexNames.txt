@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/Users/batyrjany/eclipse-workspace2/.metadata/.plugins/org.eclipse.jdt.core
+3021595414.index
+1303071342.index
+1488799510.index
+929439900.index
+3927879410.index
+2536349848.index
+1376711067.index

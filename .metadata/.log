@@ -1,0 +1,91 @@
+!SESSION 2019-09-23 10:26:33.853 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.dsl.product -keyring /Users/batyrjany/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.dsl.product -keyring /Users/batyrjany/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-09-23 10:27:01.920
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.help.base 2 0 2019-09-23 10:32:08.644
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.1.0.v201903222120 [432]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2019-09-23 10:32:08.665
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.1.0.v201903222120 [445]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2019-09-23 10:32:08.681
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201903222120 [448]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.help.base 2 0 2019-09-23 10:32:08.682
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.2.0.v201903222120 [435]'. The index should be rebuilt with Lucene 8.0.0
+
+!ENTRY org.eclipse.ui 4 0 2019-09-23 10:32:08.742
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents.entryEnabled(QuickAccessContents.java:608)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents.computeMatchingEntries(QuickAccessContents.java:526)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents.refresh(QuickAccessContents.java:162)
+	at org.eclipse.ui.internal.quickaccess.SearchField$7.refresh(SearchField.java:328)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents.lambda$1(QuickAccessContents.java:713)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4406)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1516)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:2258)
+	at org.eclipse.ui.internal.quickaccess.SearchField$7.doClose(SearchField.java:278)
+	at org.eclipse.ui.internal.quickaccess.SearchField.checkFocusLost(SearchField.java:573)
+	at org.eclipse.ui.internal.quickaccess.SearchField$4.lambda$0(SearchField.java:202)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3812)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-09-23 10:41:31.169
+!MESSAGE Cannot lock /Users/batyrjany/eclipse-workspace2/.git/index. Ensure that no other process has an open file handle on the lock file /Users/batyrjany/eclipse-workspace2/.git/index.lock, then you may delete the lock file and retry.
+!STACK 0
+org.eclipse.jgit.errors.LockFailedException: Cannot lock /Users/batyrjany/eclipse-workspace2/.git/index. Ensure that no other process has an open file handle on the lock file /Users/batyrjany/eclipse-workspace2/.git/index.lock, then you may delete the lock file and retry.
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:251)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:322)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:288)
+	at org.eclipse.jgit.lib.Repository.lockDirCache(Repository.java:1292)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:155)
+	at org.eclipse.egit.ui.internal.staging.StagingView$52.run(StagingView.java:3404)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2019-09-23 10:41:31.582
+!MESSAGE Cannot lock /Users/batyrjany/eclipse-workspace2/.git/index. Ensure that no other process has an open file handle on the lock file /Users/batyrjany/eclipse-workspace2/.git/index.lock, then you may delete the lock file and retry.
+!STACK 0
+org.eclipse.jgit.errors.LockFailedException: Cannot lock /Users/batyrjany/eclipse-workspace2/.git/index. Ensure that no other process has an open file handle on the lock file /Users/batyrjany/eclipse-workspace2/.git/index.lock, then you may delete the lock file and retry.
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:251)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:322)
+	at org.eclipse.jgit.dircache.DirCache.lock(DirCache.java:288)
+	at org.eclipse.jgit.lib.Repository.lockDirCache(Repository.java:1292)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:155)
+	at org.eclipse.egit.ui.internal.staging.StagingView$52.run(StagingView.java:3404)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
